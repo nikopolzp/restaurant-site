@@ -78,7 +78,7 @@
     @include font(96px, 103px, 700, 0.3em);
     // font-size: 23vw;
     text-transform: uppercase;
-    width: 303px;
+    width: 314px;
     margin: 0 auto;
     background-image: linear-gradient(
       rgba(218, 192, 27, 0.4),
@@ -88,11 +88,11 @@
     color: rgba(0, 0, 0, 0);
     @media screen and (max-width: $mobile) {
       font-size: 23vw;
-      width: 73vw;
+      width: 75vw;
     }
     @include tablet {
       @include font(128px, 138px, 700, 0.3em);
-      width: 404px;
+      width: 418px;
     }
   }
   &__subtitle {
