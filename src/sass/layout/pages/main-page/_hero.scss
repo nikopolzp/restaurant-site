@@ -80,12 +80,16 @@
     text-transform: uppercase;
     width: 314px;
     margin: 0 auto;
+
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
     background-image: linear-gradient(
       rgba(218, 192, 27, 0.4),
       rgb(241, 237, 237) 50%
     );
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 0);
+
     @media screen and (max-width: $mobile) {
       font-size: 23vw;
       width: 75vw;

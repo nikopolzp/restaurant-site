@@ -38,7 +38,7 @@
 }
 
 .page-header:after {
-  background-color: #0e0c07;
+  background: linear-gradient(#0e0c07 60%, #0e0c07cb);
   content: '';
   height: 100%;
   left: 0;
@@ -162,7 +162,16 @@
   @include font(36px, 39px, 700, 0.3em);
   text-transform: uppercase;
   text-decoration: none;
-  color: getColor('white-text');
+
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    rgba(218, 192, 27, 0.4),
+    rgb(241, 237, 237) 50%
+  );
+
   @media screen and (max-width: 413px) {
     font-size: 9vw;
   }
