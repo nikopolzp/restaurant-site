@@ -1,1 +1,0 @@
-{"mappings":"CAAA,IAAIA,KAAMC","sources":["src/js/wow.js"],"sourcesContent":["new WOW().init();\n"],"names":["WOW","init"],"version":3,"file":"double-room-luxe.e5a1b44b.js.map"}
