@@ -156,6 +156,37 @@
   }
 }
 
+.table-data {
+  width: 100%;
+  height: 54px;
+  padding: 0 12px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: map-get($colors, 'placeholder');
+  background-color: transparent;
+  border: 1px solid map-get($colors, 'second-accent');
+  margin-bottom: 8px;
+  position: relative;
+  outline: transparent;
+  appearance: none;
+  z-index: 2;
+  @include mobile {
+    font-size: 20px;
+  }
+  @include tablet {
+    width: 288px;
+    height: 64px;
+    font-size: 24px;
+  }
+  &:focus {
+    border: 2px solid #d2691e;
+  }
+}
+
 .btn-modal-table {
   min-width: 100%;
   height: 64px;
@@ -174,6 +205,7 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: map-get($colors, 'primary-title');
@@ -188,6 +220,7 @@
     font-size: 24px;
   }
 }
+
 .modal-table.is-show {
   display: block;
 }
@@ -195,4 +228,8 @@
 .overlay.active {
   opacity: 1;
   visibility: visible;
+}
+
+input[type='date' i]::-webkit-calendar-picker-indicator {
+  background-image: none;
 }

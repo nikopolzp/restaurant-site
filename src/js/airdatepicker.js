@@ -1,0 +1,1 @@
+new AirDatepicker('#airdatepicker');
