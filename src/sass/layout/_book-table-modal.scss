@@ -221,6 +221,6 @@
   visibility: visible;
 }
 
-input[type='date' i]::-webkit-calendar-picker-indicator {
+input[type='datetime-local' i]::-webkit-calendar-picker-indicator {
   background-image: none;
 }
