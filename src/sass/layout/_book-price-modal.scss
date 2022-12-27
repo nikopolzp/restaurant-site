@@ -10,20 +10,6 @@
   }
 }
 
-.modal-price__close {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  @include flex-center();
-  padding: 0;
-  width: 24px;
-  height: 24px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  stroke: getColor('primary-title');
-}
-
 .modal-price__title {
   @media screen and (max-width: 413px) {
     font-size: 5.8vw;

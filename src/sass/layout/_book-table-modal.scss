@@ -12,21 +12,6 @@
     padding: 60px;
   }
 }
-.modal-table-close {
-  position: absolute;
-  padding: 0;
-  background-color: transparent;
-  border: none;
-  right: 16px;
-  top: 16px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.modal-table-close-icon {
-  stroke: map-get($colors, 'primary-title');
-}
 .modal-table-title {
   font-family: 'Times New Roman';
   font-style: normal;

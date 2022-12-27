@@ -44,9 +44,21 @@
   @include flex-center;
   padding: 0;
   border: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: rotate(90deg);
+  }
 }
-.modal-room-icon {
+
+.modal-icon {
   stroke: map-get($colors, 'primary-title');
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    stroke: map-get($colors, 'second-accent');
+  }
 }
 .modal-room-title {
   margin-bottom: 40px;
