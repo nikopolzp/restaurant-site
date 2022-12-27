@@ -10,9 +10,16 @@
     </svg>
   </button>
   <h3 class="modal-price__title">Ціни на номер</h3>
-  <p class="modal-price__subtitle">Двомісний номер</p>
-  <p class="modal-price__text">Категорія номеру</p>
+  <!-- <p class="modal-price__subtitle">Двомісний номер</p> -->
+
   <form action="" class="modal-price__form" name="costForm" autocomplete="on">
+    <select name="numberCost2r" id="select-cast2r" class="modal-price__room">
+      <option value="1500">ДВОМІСНИЙ ЛЮКС</option>
+      <option value="1300">ТРЬОХМІСНИЙ НОМЕР</option>
+      <option value="1000" selected>ДВОМІСНИЙ НОМЕР</option>
+    </select>
+
+    <p class="modal-price__text">Категорія номеру</p>
     <ul class="list modal-price__list">
       <li class="modal-price__item">
         <select
