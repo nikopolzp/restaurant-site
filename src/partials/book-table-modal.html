@@ -22,14 +22,16 @@
             <span class="modal-table-text">На кого забронювати столик?</span>
           </label>
         </div>
-        <div class="table-label-wrap">
+        <div class="table-label-wrap tel-mask">
           <label>
             <input
+              data-tel-input
               type="tel"
               name="user-tel"
-              class="modal-table-input"
+              class="modal-room-input"
               placeholder="+38 (___) ___-__-__"
-              pattern="[+]\d{3}\d{9}"
+              pattern="[\+]\d{3}\d{9}"
+              title="+380991112233"
               required
             />
             <span class="modal-table-text modal-text-tel">Номер телефону</span>
