@@ -163,6 +163,10 @@
   }
 }
 
+.modal-price__input::placeholder {
+  color: rgba(128, 128, 128, 0.504);
+}
+
 .modal-price__label {
   @media screen and (max-width: 413px) {
     font-size: 3.9vw;
